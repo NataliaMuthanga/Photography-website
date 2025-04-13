@@ -5,7 +5,7 @@
     <title>Photography Website</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<nav>
+<nav class="navigation">
     <div>
         <a href="#Home">Home</a>
     </div>
@@ -19,15 +19,15 @@
 
 <body>
     <div>
-        <header>Welcome to my website! Enjoy!</header>
+        <header class="header">Welcome to my website! Enjoy!</header>
     </div>
     <div>
-        <img src="images/home-image.jpg" alt="home page image">
+        <img id="homeimage" src="images/home-image.jpg" alt="home page image">
     </div>
     <div>
         <h1>About Us</h1>
     </div>
-    <div>
+    <div id="aboutus">
         <p>I began this company at the very end of 2021. It had always been a dream of mean to take pictures and make
             moments in people's lives memorable. Photographs are a gateway into past moments. They allow us to never
             forget loved ones, amazing moments and many more. When I take pictures, whether of people or nature, I feel
@@ -46,42 +46,44 @@
         </ul>
         </p>
     </div>
-    <section>
-        <div>
+    <section class="imagelist">
+        <div class="photo">
             <img src="images/engangement-photo.jpg" alt="Engangement photo">
             <p>Engangement photo</p>
         </div>
-        <div>
+        <div class="photo">
             <img src="images/family.jpg" alt="Family photo">
             <p>Family photo</p>
         </div>
-        <div>
+        <div class="photo">
             <img src="images/gradutaion.jpg" alt="Graduation photo">
             <p>Graduation photo</p>
         </div>
-        <div>
+        <div class="photo">
             <img src="images/nature.jpg" alt="Nature photo">
             <p>Nature photo</p>
         </div>
-        <div>
+        <div class="photo">
             <img src="images/portrait.jpg" alt="Potrait photo">
             <p>Potrait photo</p>
         </div>
-        <div>
+        <div class="photo">
             <img src="images/wedding.jpg" alt="Wedding photo">
             <p>Wedding photo</p>
         </div>
     </section>
+    <button>BOOK WITH US NOW!</button>
+<footer>
     <div>
         <h1>Contact Us</h1>
     </div>
-    <div>
-        <p>If you have any inquires, you can reach out using the following avenues:</p>
-        <p>Email: photos.images@gmail.com</p>
-        <p>Phone: +254 787341065</p>
-    </div>
-
-
+        <div>
+            <p>If you have any inquires, you can reach out using the following avenues:</p>
+            <p class="Contact">Email: photos.images@gmail.com</p>
+            <p class="Contact">Phone: +254 787341065</p>
+        </div>
+</footer>
+    
 </body>
 
 </html>
